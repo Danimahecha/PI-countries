@@ -1,0 +1,56 @@
+.countryCard{
+	
+    margin: 30px auto;
+	margin-top: 100px;
+    margin-left: 600px;
+    width: 30%;
+	height: 60%;
+	border-radius: 10px;
+    box-shadow: 5px 5px 3px 7px rgba(0,0,0,0.25), 5px 5px 3px 7px rgba(0,0,0,0.22);
+	transition: 0.8s;
+	background-color:rgba(221, 208, 208, 0.5);
+    display: flex;
+	align-items:center;
+	justify-content: space-around;
+	flex-direction:row-reverse;
+	flex-wrap: wrap;
+   position:fixed;
+}
+
+.countryCard img {
+	width: 140px;
+	height:110px;
+	
+}
+
+.container{
+    background-image:url('../../../Img/ALA_DE_AVION_MAKIA.jpg');
+	background-size:cover;
+    background-repeat:no-repeat;
+
+    margin-left:-150px;
+	height: 900px;
+	width:1550px;
+}
+
+
+
+.btnHome{
+    font-family:monospace;
+    text-decoration: none;
+	margin-left:730px;
+    width: 130px;
+    height: 40px;
+    background-color:rgba(196, 178, 178, 0.582);
+    border: 15px;
+    font-size: 20pt;
+    color: rgba(114, 133, 133, 0.829);
+    padding-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+}

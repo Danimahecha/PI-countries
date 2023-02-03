@@ -1,0 +1,37 @@
+.search searchC{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.searchC{
+    margin-top:3px;
+    width: 200px;
+    height: 30px;
+    background: #c7c1b0;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #5f7183;
+    padding-left: 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 14px;
+
+}
+
+.Btn{
+    
+    width: 130px;
+    height: 35px;
+    margin-bottom: 1px;
+    background-color:rgba(221, 208, 208, 0.5);
+    border: 15px;
+    font-size: 10pt;
+    color: rgba(46, 40, 40, 0.925);
+    padding-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+    cursor:pointer;
+}

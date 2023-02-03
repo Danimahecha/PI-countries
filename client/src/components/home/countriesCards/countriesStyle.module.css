@@ -1,0 +1,66 @@
+.container{
+    padding: 5%;
+	width: 65%;
+	min-height:400px;
+	margin-left: -80px;
+	display: grid;
+	grid-template-columns: [first] 100px [line2] 100px [line3] 100px[col4-start] 100px [five] 0px[end];
+	grid-template-rows: [row1-start] 25% [row1-end] 75% [third-line] 45% [last-line] 35%;
+	justify-self:center;
+	align-items:center;
+	justify-content:space-around;
+}
+
+.btn{
+    margin-left:60px;
+	width: 130px;
+    height: 45px;
+    background-color:rgba(40, 120, 196, 0.623);
+    border: 5px;
+	font-size: 30pt;
+    float: left;
+    color: rgba(0, 0, 0, 0.925);
+    padding-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	cursor: pointer;
+}
+.btnActivity{
+	margin-left:60px;
+	width: 130px;
+    height: 30px;
+    background-color:rgba(40, 120, 196, 0.623);
+    border: 5px;
+	font-size: 10pt;
+    float: left;
+    color: rgba(255, 255, 255, 0.925);
+    padding-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+	cursor: pointer;
+}
+.searchContainer{
+	margin-top: 20px;
+	height:30px;
+	width:100%;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	flex-direction:row;
+	
+}
+.wrapper{
+	display:flex;
+	align-items:center;
+	justify-content: flex-start; 
+	flex-direction: column;
+	margin-left:-100px;
+	margin-top:15px;
+	
+}
